@@ -43,8 +43,12 @@ export default function Home() {
               <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300'>I am looking for an opportunity to enter the world of programming.</p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-              <AiFillLinkedin className='cursor-pointer dark:text-white' />
-              <AiFillGithub className='cursor-pointer dark:text-white' />
+              <a target={'_blank'} href='https://www.linkedin.com/in/guilherme-dine-83a17a242/'>
+                <AiFillLinkedin className='cursor-pointer dark:text-white' />
+              </a>
+              <a target={'_blank'} href='https://github.com/Guilhermedine'>
+                <AiFillGithub className='cursor-pointer dark:text-white' />
+              </a>
             </div>
           </section>
           <section>
@@ -89,6 +93,13 @@ export default function Home() {
               <div className='basis-1/3 flex-1'>
                 <Image src={page4} className='rounded-lg object-cover' width={'100%'} height={'100%'} />
               </div>
+            </div>
+          </section>
+          <section>
+            <div className='text-center py-10'>
+              <h3 className='text-3xl py-1 dark:text-white'>Contact</h3>
+              <p className='text-md text-gray-800 dark:text-gray-300'>Phone Number: +55 11 948762672</p>
+              <p className='text-md text-gray-800 dark:text-gray-300'>E-mail: guilherme.dine@gmail.com</p>
             </div>
           </section>
         </main>
